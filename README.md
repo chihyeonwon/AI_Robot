@@ -37,6 +37,7 @@ sters per change 30도부터 100번 낮춘다.
 tool dev c++
 ```
 ## 23.09.19 ART(적응적 공명 이론)
+![image](https://github.com/wonchihyeon/AI_Robot/assets/58906858/034e1224-ea5c-4fcb-909e-a9f004c7526d)
 ```
 ART1이 처음에 나오고 많은 변형된 알고리즘이 나왔다.
 학습알고리즘 (지도(supervise)학습, 비지도(unsupervise)학습, 강화학습())
@@ -90,5 +91,7 @@ p1이랑 e는 비슷하다 베타는 1.0으로 신경x 로우값이(클러스터
 proximity test 같은 데 1로 같은 거의 개수를 센다 (P0 n E)
 vigilance test 로우값이랑 비교
 
-p1 and ex 원래프로토타입과 새로고른 것을 and 연
+p1 and ex 원래프로토타입과 새로고른 것을 and 연산
+
+
 ```
