@@ -120,7 +120,10 @@ u, v, w 소비자들이 100% 같을 순 없다. 각 품목에 있는 1의 개수
 숫자가 적은 소비자에게는 바로 추천해준다(0)
 
 sum vector를 흝어가면서 
-
-
-
+```
+## 23.09.26 개발일지
+#### Ant Algorithms
+![image](https://github.com/wonchihyeon/AI_Robot/assets/58906858/ac34c7ee-fdc3-4f58-aa84-dce520ce944d)
+```
+stigmergy 낙인찍
 ```
