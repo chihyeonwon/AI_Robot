@@ -123,7 +123,24 @@ sum vector를 흝어가면서
 ```
 ## 23.09.26 개발일지
 #### Ant Algorithms
-![image](https://github.com/wonchihyeon/AI_Robot/assets/58906858/ac34c7ee-fdc3-4f58-aa84-dce520ce944d)
+![image](https://github.com/wonchihyeon/AI_Robot/assets/58906858/ac34c7ee-fdc3-4f58-aa84-dce520ce944d)     
+![image](https://github.com/wonchihyeon/AI_Robot/assets/58906858/cf4faa7b-f2e4-4726-af74-8022aa8b5f79)    
+## 길이
+![image](https://github.com/wonchihyeon/AI_Robot/assets/58906858/987f3284-805f-4e57-bf9d-addb66f02de2)   
+![image](https://github.com/wonchihyeon/AI_Robot/assets/58906858/ea7d600e-5617-4d2f-8768-ee3e5b5f2ab9)
+
 ```
-stigmergy 낙인찍
+stigmergy 낙인찍다
+
+Pru (r에서 u로 가는 데 확률) : 경로의 길이를 알 수 있다. 페로몬의 양이 같을 때 짧은 길로 가겠다.
+(r,u)<- 인덱스는 없어도 된다. 거리가 낮을 수록 좋다. 거리의 역수 L분의 1
+알파, 베타는 튜닝을 위한 계수다. 계수로 어디에 중요성을 둘지를 결정한다. 초매개변수
+
+앞에꺼가 페로몬양 뒤에꺼가 거리
+
+로우 = 0.6 페로몬의 양이 60%씩 줄어든다.
+
+u1 = 10, u2 = 20 10분걸리고 20분걸린다.
+
+Q/L Q= 상수 10
 ```
