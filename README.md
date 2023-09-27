@@ -144,3 +144,18 @@ u1 = 10, u2 = 20 10분걸리고 20분걸린다.
 
 Q/L Q= 상수 10
 ```
+## 23.09.27
+![image](https://github.com/wonchihyeon/AI_Robot/assets/58906858/1f409057-8a59-4af5-a8ce-73fbf4cb4b29)
+```
+TSP (Traveling Salesman Problem) <- 최단 거리를 찾는 데 조건 모든 노드를 한 번씩만, 중복 x
+
+max CITIES <- 노드의 수
+max distance <- 거리
+
+노드의 수 만큼 랜덤하게 생성 -> 어떤 직선 경로로 이동했을 때 거리가 작을 것인가.
+
+만든 순서대로 가봐라 cities(생성순서) -> 최적화 -> soluction best, 최적화 경로
+
+
+
+```
