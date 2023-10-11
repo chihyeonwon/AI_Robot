@@ -157,3 +157,72 @@ max distance <- 거리
 
 만든 순서대로 가봐라 cities(생성순서) -> 최적화 -> soluction best, 최적화 경로
 ```
+##23.10.11
+#### 다층 신경망 학습(1. 출력 계산, 2. 역전파(학습)
+![image](https://github.com/chihyunwon/AI_Robot/assets/58906858/166c5cc4-98fb-4210-84dd-12e00f936533)
+#### 역전파(학습) 알고리즘 
+![image](https://github.com/chihyunwon/AI_Robot/assets/58906858/a2781b29-cbfb-48fd-a53b-10c1ae8ff0f9)
+
+```
+신경망학습은 1. 출력계산(feed forward), 2. 그 결과를 가지고 학습하는 두 단계로 나뉜다.
+출력계산, 학습
+
+전진전파의 결과로 가중치를 수정하는 역전파 단계
+
+0.0이나와야하는데 0.5097이라는 결과가 나왔다. 오차를 계산하고
+가중치를 수정하는 단계를 거친다.
+
+역전파도 두 단계로 나뉜다.
+계산할 때 화살표가 들어오는 것
+
+입력층 -> 중간층 -> 출력층 (다층 신경망 학습)
+출력층 -> 중간층 -> 입력층 (역전파 학습) 
+
+1. 출력층 중간층 사이의 가중치 수정
+
+2. 중간층에서 입력층 가중치 수정
+```
+[Playground.tensorflow](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.17816&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)    
+![image](https://github.com/chihyunwon/AI_Robot/assets/58906858/a795c442-1d1e-4c49-8a35-43597cca62eb)     
+![image](https://github.com/chihyunwon/AI_Robot/assets/58906858/50a6c9c9-4367-4d48-900b-38962b8d9bc9)    
+``` 
+x1 -1.5
+x2 0.01
+
+신경망의 구조 (입력층, 중간층, 출력층) 모델 설계
+layer의 개수, 뉴런 개수를 정해서 코딩
+
+학습을 하려면 중간층이 있어야 가중치값과 계산
+
+층에 뉴런을 추가하면 더 오차가 낮아진다.
+
+0에 가까울수록 영향이 없어짐
+
+정보전달양이 학습으로 드러난다
+```
+## Evolving GAME AI Behaviors
+![image](https://github.com/chihyunwon/AI_Robot/assets/58906858/9f2856f3-936f-4c11-8f53-c3564cd72889)
+```
+게임 AI가 동작을 정해야 해야 할 때 신경망 알고리즘 응용하여 적용한다.
+
+입력에 따라 동작을 결정할 수 있다..
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
