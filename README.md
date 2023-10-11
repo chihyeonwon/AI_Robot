@@ -1,5 +1,6 @@
 # AI_Robot
 컴퓨터공학과 인공지능 및 로봇실습 정리입니다.
+[컴파일러사이트](https://www.onlinegdb.com/)
 ## 모의담금질 알고리즘
 ![image](https://github.com/wonchihyeon/AI_Robot/assets/58906858/4c7da6a3-e75a-419c-8607-ac841562c75c)
 ```
@@ -207,9 +208,23 @@ layer의 개수, 뉴런 개수를 정해서 코딩
 
 입력에 따라 동작을 결정할 수 있다..
 
+Input Neurons (네모)
+hidden neuron 중간 뉴런(동그라미)
+output Neurons 출력 뉴런(동그라미)
+
+선을 긋는 데 핵심 : 하나의 뉴런은 다음 층의 모든 뉴런에 연결이 된다.
+
+feedforward, backprop(역전파)
+```
+![image](https://github.com/chihyunwon/AI_Robot/assets/58906858/6c09a55b-68f2-4bb0-b415-8ed88bc4c466)
+```
+sigmoid
+val <- 입력*가중치의 sum 합
+
+mse error
+입력값에 따른 결과값은 sample data와는 다르다.
 
 ```
-
 
 
 
