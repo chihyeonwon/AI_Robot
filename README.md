@@ -225,6 +225,7 @@ mse error
 입력값에 따른 결과값은 sample data와는 다르다.
 
 ```
+![image](https://github.com/chihyunwon/AI_Robot/assets/58906858/b5d80d7f-8420-4617-82c9-60583256bb32)
 
 ```
 강화 학습 유전알고리즘
@@ -235,7 +236,15 @@ mse error
 
 진화론은 발전이 아니라 환경에 대한 변화다.
 
+적합도 평가하고 natural selection 선택
 
+맛의 점수를 다 더하고 그 중 점수로 나눠서 7/31 = 0.23
+
+유전연산 : 교차 crossover, 돌연변이 mutation
+
+돌연변이 <- 낮은 비율로 부정적인 결과를 얻는 경우가 많다.
+
+라면번호=재료를 이진법
 
 
 
