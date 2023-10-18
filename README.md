@@ -280,8 +280,11 @@ x의 8승을 계산하는 프로그램을 만들어봐라. 만든 프로그램�
 
 DUP MUL DUP MUL DUP MUL -> DUP3 MUL3
 3의2승 * 3의 2승 -> 3의 4승 3의 4승 -> 3의 8승
+```
+![image](https://github.com/chihyunwon/AI_Robot/assets/58906858/d25377fa-8c2f-4e81-9a1a-9e7f7882b987)
+```
+문제가 달라지면 문제에 대응되는 값을 다르게 해야한다.
 
-
-
-
+result의 argument의 개수를 꼭 넣어줘야 한다.
+x, y, z 입력이라면 3개를 넣어줘야한다.
 ```
