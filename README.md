@@ -150,6 +150,7 @@ Q/L Q= 상수 10
 ![image](https://github.com/wonchihyeon/AI_Robot/assets/58906858/c8d3e415-ad13-4651-ad00-b45ac7e2afa3)     
 ```
 TSP (Traveling Salesman Problem) <- 최단 거리를 찾는 데 조건 모든 노드를 한 번씩만, 중복 x
+거리의역수 거리가 짧아지면 좋아짐짐
 
 max CITIES <- 노드의 수
 max distance <- 거리
