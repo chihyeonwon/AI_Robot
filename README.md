@@ -290,8 +290,28 @@ result의 argument의 개수를 꼭 넣어줘야 한다.
 x, y, z 입력이라면 3개를 넣어줘야한다.
 ```
 
-23.11.01
+23.11.07
+## Artificial Life 인공생명
+[the nature of code](https://natureofcode.com/book/)
 ```
+보이드
+
+the nature of code : 코드의 본질
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
