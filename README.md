@@ -293,11 +293,29 @@ x, y, z 입력이라면 3개를 넣어줘야한다.
 23.11.07
 ## Artificial Life 인공생명
 [the nature of code](https://natureofcode.com/book/)
+[processing 언어](https://www.processing.org)
+![image](https://github.com/mr-won/AI_Robot/assets/58906858/5d3f4b9b-1831-4680-92d5-42cfa546c909)   
 ```
-보이드
+보이드(boids) 알고리즘
 
 the nature of code : 코드의 본질
 
+Flocking
+도넛 토러스
+
+무리를 왜 지어서 이동하는가?
+적당하게 따라가면서 피해야함
+
+alignment 진행 방향을 설정
+
+separation alignment cohesion 세 벡터의 합
+
+sep.mult(1.5); < 숫자는 비
+ali.mult(1.0);
+coh.mult(1.0);
+
+size 화면크기
+i<200 <- 200마리
 
 
 
