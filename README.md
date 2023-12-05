@@ -912,7 +912,34 @@ n = 2 bigram n=3 trigram n-ngram
 하지만 메모리 사용량의 증가가 너무 많아서 모델을 사용할 수는 없게 될 정도이다.
 bigram < trigram < 4gram
 
+100 x 100 words
 
+두 덩어리를 저장하기 위한 행렬의 크기는 100 * 100 = 10000
+trigram 100^3 
+4gram 100^4
+```
+![image](https://github.com/mr-won/AI_Robot/assets/58906858/b3d0d52e-e72b-4313-8323-3f5fdf8beba4)
+```
+text를 학습시킨다.학습데이터 맨위
+그림이 마르코프 테이블을 만드는 것이다. 행렬의 형태로 만든다.
+학습결과
+
+what 다음에 is가 나올 확률은 1.0
+is 다음에는 a도 나오고 the도 나온다. 반반의 확률
+
+표로 만들면 7단어 what is a toad where the road 7x7행렬로 만든다.
+빈도를 계산하고 화귤을 계산한다.
+what 다음에 is가 나오는 확률 1
+a, the 가 나온다. 1  1
+
+
+문장 생성 확률인 높은 순서대로 랜덤하게 뽑아서 던진다.
+
+작가의 텍스트 말뭉치를 hmm으로 학습시킨것이다. 바이그램에서의 학습은 행렬이다.
+
+미술분야
+
+sumVector 행렬
 
 
 
@@ -937,8 +964,6 @@ bigram < trigram < 4gram
 
 
 ```
-
-
 
 
 
