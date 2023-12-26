@@ -1,5 +1,11 @@
 # AI_Robot
 컴퓨터공학과 인공지능 및 로봇실습 정리입니다.
+## 종강
+![image](https://github.com/mr-won/AI_Robot/assets/58906858/8349bca2-008f-4ef3-b1b5-e84ad2d671f6)
+```
+인공신경망, 퍼지이론, 유전 알고리즘 등 불확실한 정보를 다룰 수 있는 이론 및 기술들을 이해하고 구현하여
+실세계 문제에서의 적용력을 배울 수 있었습니다.
+```
 [컴파일러사이트](https://www.onlinegdb.com/)
 ## 모의담금질 알고리즘
 ![image](https://github.com/wonchihyeon/AI_Robot/assets/58906858/4c7da6a3-e75a-419c-8607-ac841562c75c)
