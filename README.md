@@ -1,4 +1,4 @@
-## 25 AI 복습
+## 25 AI 알고리즘 C Language Review 복습
 
 # AI_Robot
 
